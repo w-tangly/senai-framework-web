@@ -39,9 +39,13 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 - PREECE, J.; ROGERS, Y.; SHARP, H. *Design de Interação: além da interação Homem-Computador.* 3. ed. Bookman, 2013.
 - SOUSA, Roque Fernando Marcos. *Canvas HTML 5: composição gráfica e interatividade na web.* Brasport, 2014.
 
-## Atividades realizadas
+## Repositório das atividades realizadas
 
 - [Atividade 1 - Vanilla JS](https://github.com/w-tangly/frameworkWeb-vanilla-aula1.git)
+
+## Link das atividades realizadas
+
+- [Atividade 1 - Vanilla JS](https://framework-web-vanilla-aula1.vercel.app/)
 
 
 ## Projeto final da matéria
