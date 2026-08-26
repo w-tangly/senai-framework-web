@@ -4,9 +4,9 @@ Uma seleção de 10 projetos populares e relevantes no GitHub que fazem uso de A
 
 ## 📊 Tabela de Repositórios
 
-| Repositório | Framework utilizado | API's usadas |
-| :--- | :--- | :--- |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LangChain / Pydantic (Python) | OpenAI API, Anthropic Claude API, Google Gemini API, HuggingFace API |
+| Repositório | Framework utilizado | API's usadas | Como encontrei a API |
+| :--- | :--- | :--- | :---|
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LangChain / Pydantic (Python) | OpenAI API, Anthropic Claude API, Google Gemini API, HuggingFace API | Ao verificar o arquivo `./libs/core/Makefile` eu achei os testes de caminhos e funcionamento de API's usadas no projeto |
 | [stirling-tools/Stirling-PDF](https://github.com/stirling-tools/Stirling-PDF) | Spring Boot (Java) | PDFbox API, OCR (Tesseract) API |
 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Vue.js / Nuxt.js (TypeScript) | WebSockets API, Server-Sent Events (SSE) API, REST/GraphQL APIs |
 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | React / Node.js (TypeScript) | OpenAI API, Pinecone API, SerpAPI, Hugging Face API |
