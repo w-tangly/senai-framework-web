@@ -7,7 +7,7 @@ Uma seleção de 10 projetos populares e relevantes no GitHub que fazem uso de A
 | Repositório | Framework utilizado | API's usadas | Como encontrei a API |
 | :--- | :--- | :--- | :---|
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LangChain / Pydantic (Python) | OpenAI API, Anthropic Claude API, Google Gemini API, HuggingFace API | Ao verificar o arquivo `./libs/core/Makefile` eu achei os testes de caminhos e funcionamento de API's usadas no projeto |
-| [stirling-tools/Stirling-PDF](https://github.com/stirling-tools/Stirling-PDF) | Spring Boot (Java) | PDFbox API, OCR (Tesseract) API |
+| [stirling-tools/Stirling-PDF](https://github.com/stirling-tools/Stirling-PDF) | Spring Boot (Java) | PDFbox API, OCR (Tesseract) API | Ao verificar o arquivo `./buildSrc/src/main/groovy/stirling/software/gradle/ModuleLicenseOverrideFilter.groovy` é possível encontrar os imports de algumas APIs logo no começo do código em conjunto de outros imports diversos  |
 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Vue.js / Nuxt.js (TypeScript) | WebSockets API, Server-Sent Events (SSE) API, REST/GraphQL APIs |
 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | React / Node.js (TypeScript) | OpenAI API, Pinecone API, SerpAPI, Hugging Face API |
 | [BloopAI/bloop](https://github.com/BloopAI/bloop) | React (TypeScript) / Rust (Tauri) | OpenAI GPT-4 API, GitHub REST API, Qdrant Vector Search API |
