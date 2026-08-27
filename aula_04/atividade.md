@@ -15,6 +15,7 @@ Uma seleção de 10 projetos populares e relevantes no GitHub que fazem uso de A
 | [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) | Next.js / React (TypeScript) | OpenAI Chat Completion API, Google Gemini API, Claude API | Lendo a página inicial do projeto é possível ver o "roadmap" da aplicaçã e em um dos objetivos já concluídos está a conexão e uso de diferentes APIs |
 | [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | Electron / React (JavaScript) | Postman Public API, WebSockets API, OAuth 2.0 Auth APIs |
 | [spotipy-dev/spotipy](https://github.com/spotipy-dev/spotipy) | Python Client | Spotify Web API |
+| [octokit/octokit.js](https://github.com/octokit/octokit.js) | Node.js / Universal JS (TypeScript) | GitHub REST API, GitHub GraphQL API |
 
 ---
 
@@ -29,3 +30,4 @@ Uma seleção de 10 projetos populares e relevantes no GitHub que fazem uso de A
 7. **ChatGPT Next Web**: Interface de usuário responsiva e elegante para interagir com modelos da OpenAI, Gemini e Anthropic.
 8. **Postman App Support**: Repositório de suporte e ecossistema do cliente Postman para testes e automação de APIs.
 9. **Spotipy**: Biblioteca leve em Python para acesso completo à API Web do Spotify.
+10. **Octokit.js**: O SDK oficial para Javascript/Node.js para interagir com a API REST e GraphQL do GitHub.
