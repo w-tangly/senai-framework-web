@@ -13,9 +13,9 @@ Uma seleção de 10 projetos populares e relevantes no GitHub que fazem uso de A
 | [BloopAI/bloop](https://github.com/BloopAI/bloop) | React (TypeScript) / Rust (Tauri) | OpenAI GPT-4 API, GitHub REST API, Qdrant Vector Search API | Ao verificar os commits na página inicial do projeto, observei mensagens de commits comentando testes, ajustes ou adiçoes de APIs dentro do projeto |
 | [activepieces/activepieces](https://github.com/activepieces/activepieces) | Angular / NestJS (TypeScript) | Slack API, Notion API, Google Sheets API, OpenAI API, Webhooks | Ao verificar o arquivo `./AGENTS.md` achei a documentação sobre padronização das APIs usadas no repositório e como organiza-las ao decorrer do projeto |
 | [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) | Next.js / React (TypeScript) | OpenAI Chat Completion API, Google Gemini API, Claude API | Lendo a página inicial do projeto é possível ver o "roadmap" da aplicaçã e em um dos objetivos já concluídos está a conexão e uso de diferentes APIs |
-| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | Electron / React (JavaScript) | Postman Public API, WebSockets API, OAuth 2.0 Auth APIs |
-| [spotipy-dev/spotipy](https://github.com/spotipy-dev/spotipy) | Python Client | Spotify Web API |
-| [octokit/octokit.js](https://github.com/octokit/octokit.js) | Node.js / Universal JS (TypeScript) | GitHub REST API, GitHub GraphQL API |
+| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | Electron / React (JavaScript) | Postman Public API, WebSockets API, OAuth 2.0 Auth APIs | Na página inicial do projeto é descrito que o projeto é feito para testar APIs e que usa de APIs ao mesmo tempo |
+| [spotipy-dev/spotipy](https://github.com/spotipy-dev/spotipy) | Python Client | Spotify Web API | Ao analisar os commits na página inicial é possível ver um commit de correção de funcionamento de API |
+| [octokit/octokit.js](https://github.com/octokit/octokit.js) | Node.js / Universal JS (TypeScript) | GitHub REST API, GitHub GraphQL API | No README inicial do projeto é possível ver métodos de funcionamento de pacotes do projeto, um dos métodos listados é a API |
 
 ---
 
