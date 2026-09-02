@@ -44,7 +44,7 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 - [Atividade 1 - Vanilla JS](https://github.com/w-tangly/frameworkWeb-vanilla-aula1.git)
 - [Atividade 2 - Introdução a React](https://github.com/w-tangly/primeiro_projeto_react)
 
-## Link das atividades realizadas
+## Deploy das atividades realizadas
 
 - [Atividade 1 - Vanilla JS](https://framework-web-vanilla-aula1.vercel.app/)
 - [Atividade 2 - Introdução a React](https://primeiro-projeto-react-ivory.vercel.app/)
