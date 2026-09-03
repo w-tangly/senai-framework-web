@@ -41,14 +41,21 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 
 ## Repositório das atividades realizadas
 
-- [Atividade 1 - Vanilla JS](https://github.com/w-tangly/frameworkWeb-vanilla-aula1.git)
-- [Atividade 2 - Introdução a React](https://github.com/w-tangly/primeiro_projeto_react)
+- [Aula 1 - Vanilla JS](https://github.com/w-tangly/frameworkWeb-vanilla-aula1.git)
+- [Aula 2 - Introdução a React](https://github.com/w-tangly/primeiro_projeto_react)
+- [Aula 3 - Projeto React](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-hda-react)
+- [Aula 3 - Projeto colaborativo](https://github.com/pi-1semestre/framework-frontend-colab)
+- [Aula 4 - Criação de API (backend)](https://github.com/w-tangly/meu-projeto-express)
+- [Ãula 4 - Criação de API (frontend)](https://github.com/w-tangly/front-express.git)
 
 ## Deploy das atividades realizadas
 
-- [Atividade 1 - Vanilla JS](https://framework-web-vanilla-aula1.vercel.app/)
-- [Atividade 2 - Introdução a React](https://primeiro-projeto-react-ivory.vercel.app/)
-
+- [Aula 1 - Vanilla JS](https://framework-web-vanilla-aula1.vercel.app/)
+- [Aula 2 - Introdução a React](https://primeiro-projeto-react-ivory.vercel.app/)
+- [Aula 3 - Projeto React]()
+- [Aula 3 - Projeto colaborativo]()
+- [Aula 4 - Criação de API (backend)](https://api-express-deivison.onrender.com)
+- [Aula 4 - Criação de API (frontend)](https://front-express-three.vercel.app/)
 
 ## Projeto final da matéria
 - [Projeto final](URL)
