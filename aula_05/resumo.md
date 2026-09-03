@@ -29,12 +29,12 @@ Para evoluir o back-end e permitir operações completas de manipulação de dad
 
 > Atenção ao CORS: É necessário configurar o cabeçalho de acesso externo (`Access-Control-Allow-Origin: '*'`) para que o front-end consiga consumir a API sem bloqueios de segurança do navegador.
 
-3. Fluxo de Publicação (Deploy)
-Back-end: O projeto Node.js/Express é enviado para o GitHub e hospedado na plataforma Render.
+## 3. Fluxo de Publicação (Deploy)
+1. Back-end: O projeto Node.js/Express é enviado para o GitHub e hospedado na plataforma Render.
 
-Front-end: A interface em React consome a URL gerada pelo Render e é publicada na Vercel.
+2. Front-end: A interface em React consome a URL gerada pelo Render e é publicada na Vercel.
 
-4. Documentando APIs com o Postman
-O que é: Ferramenta essencial e colaborativa para criar, testar, documentar e monitorar requisições HTTP.
+## 4. Documentando APIs com o Postman
+* O que é: Ferramenta essencial e colaborativa para criar, testar, documentar e monitorar requisições HTTP.
 
-Principais funções: Permite enviar requisições (GET, POST, etc.) de forma visual, organizar endpoints em coleções, testar códigos de resposta, utilizar variáveis de ambiente e gerar documentações técnicas automatizadas.
+* Principais funções: Permite enviar requisições (GET, POST, etc.) de forma visual, organizar endpoints em coleções, testar códigos de resposta, utilizar variáveis de ambiente e gerar documentações técnicas automatizadas.
