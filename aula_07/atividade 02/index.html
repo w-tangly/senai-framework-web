@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 02 - Tailwind CSS</title>
+  <!-- Carregamento do Tailwind CSS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-100 text-slate-800 min-h-screen flex flex-col font-sans">
+
+  <!-- ================= HEADER COM FLEXBOX E POSICIONAMENTO ================= -->
+  <header class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm px-6 py-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="w-4 h-4 rounded-full bg-indigo-600 inline-block"></span>
+        <span class="text-xl font-bold tracking-tight text-indigo-700">TailwindProject</span>
+      </div>
+      
+      <nav class="flex items-center gap-6 text-sm font-medium">
+        <a href="#galeria" class="text-slate-600 hover:text-indigo-600 transition-colors">Galeria</a>
+        <a href="#destaque" class="text-slate-600 hover:text-indigo-600 transition-colors">Destaque</a>
+        <a href="#sobre" class="text-slate-600 hover:text-indigo-600 transition-colors">Sobre</a>
+      </nav>
+      
+      <button class="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold px-4 py-2 rounded-lg shadow transition">
+        Acessar Conta
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+  <main class="flex-1 max-w-7xl mx-auto w-full p-6 space-y-10">
+
+    <!-- HERO / BANNER -->
+    <section id="sobre" class="relative overflow-hidden bg-white p-8 rounded-2xl border border-slate-200 shadow-sm text-center">
+      <span class="inline-block bg-indigo-50 text-indigo-700 text-xs font-bold uppercase px-3 py-1 rounded-full mb-3">
+        Atividade 02
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">
+        Interface Moderna com Tailwind CSS
+      </h1>
+      <p class="text-slate-600 max-w-2xl mx-auto text-base sm:text-lg">
+        Projeto construído utilizando mais de 30 classes utilitárias para demonstrar cores, tipografia, grid responsivo, flexbox e posicionamento.
+      </p>
+    </section>
+
+    <!-- BANNER DE DESTAQUE COM POSICIONAMENTO ABSOLUTO -->
+    <section id="destaque" class="relative bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-6 rounded-xl shadow-md overflow-hidden">
+      <div class="relative z-10 max-w-lg">
+        <h2 class="text-2xl font-bold mb-2">Painel em Destaque</h2>
+        <p class="text-indigo-100 text-sm mb-4">
+          Demonstração de gradiente, z-index, alinhamento absoluto decorativo e botões interativos.
+        </p>
+        <button class="bg-white text-indigo-700 text-sm font-semibold px-4 py-2 rounded-md hover:bg-indigo-50 transition">
+          Ver Estatísticas
+        </button>
+      </div>
+      <!-- Elemento decorativo posicionado com absolute -->
+      <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-white/10 rounded-full blur-xl pointer-events-none"></div>
+    </section>
+
+    <!-- ================= GRID RESPONSIVO COM OS CARDS ================= -->
+    <section id="galeria">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-slate-900">Galeria de Cards Responsiva</h2>
+        <span class="text-xs text-slate-500 font-medium">Grid: 1 col (mobile), 2 cols (tablet), 4 cols (desktop)</span>
+      </div>
+
+      <!-- GRID RESPONSIVO (grid-cols-1 sm:grid-cols-2 lg:grid-cols-4) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Card 1 -->
+        <article class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Card 01</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-500" title="Ativo"></span>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-800 mb-2">Layout em Grid</h3>
+            <p class="text-sm text-slate-500 mb-4">Estrutura organizada com gaps proporcionais e quebra de colunas fluida.</p>
+          </div>
+          <button class="w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-xs font-semibold py-2 rounded-lg transition">
+            Detalhes
+          </button>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Card 02</span>
+              <span class="w-2 h-2 rounded-full bg-amber-500" title="Pendente"></span>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-800 mb-2">Tipografia Limpa</h3>
+            <p class="text-sm text-slate-500 mb-4">Hierarquia de texto utilizando classes de font-weight, tracking e line-height.</p>
+          </div>
+          <button class="w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-xs font-semibold py-2 rounded-lg transition">
+            Detalhes
+          </button>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Card 03</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-500" title="Ativo"></span>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-800 mb-2">Box Model Controlado</h3>
+            <p class="text-sm text-slate-500 mb-4">Espaçamentos internos (p-5), margens e bordas com raio de arredondamento.</p>
+          </div>
+          <button class="w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-xs font-semibold py-2 rounded-lg transition">
+            Detalhes
+          </button>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Card 04</span>
+              <span class="w-2 h-2 rounded-full bg-rose-500" title="Urgente"></span>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-800 mb-2">Responsividade Total</h3>
+            <p class="text-sm text-slate-500 mb-4">Prefixos 'sm:' e 'lg:' assegurando uma excelente experiência em qualquer dispositivo.</p>
+          </div>
+          <button class="w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-xs font-semibold py-2 rounded-lg transition">
+            Detalhes
+          </button>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="bg-white border-t border-slate-200 py-6 px-4 mt-auto text-center text-xs text-slate-500">
+    <p>&copy; 2026 Atividade 02 - Projeto com Tailwind CSS. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
