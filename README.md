@@ -28,6 +28,16 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 2. Framework para CSS (Definição, Instalação, Utilização)
 3. Framework para Front-End (Definição, Configuração, Pacote NPM, Rotas, Componentes/propriedades/estados)
 
+## Repositórios e deploys das atividades realizadas
+
+| Atividade | Repositório | Deploy |
+|---|---|---|
+| Aula 1 - Vanilla JS | [GitHub](https://github.com/w-tangly/frameworkWeb-vanilla-aula1) | [Vercel](https://framework-web-vanilla-aula1.vercel.app/) |
+| Aula 2 - Introdução a React | [GitHub](https://github.com/w-tangly/primeiro_projeto_react) | [Vercel](https://primeiro-projeto-react-ivory.vercel.app/) |
+| Aula 3 - Projeto React | [GitHub](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-hda-react) | Não informado |
+| Aula 3 - Projeto colaborativo | [GitHub](https://github.com/pi-1semestre/framework-frontend-colab) | [Vercel](https://projeto-react-cartoon-framework.vercel.app/) |
+| Aula 4 - Criação de API (backend) | [GitHub](https://github.com/w-tangly/meu-projeto-express) | [Render](https://api-express-deivison.onrender.com) |
+| Aula 4 - Criação de API (frontend) | [GitHub](https://github.com/w-tangly/front-express) | [Vercel](https://front-express-three.vercel.app/) |
 
 ### Referências
 - SOUZA, Natan. *Bootstrap 4: conheça a biblioteca front-end mais utilizada no mundo.* Casa do Código, 2018.
@@ -39,23 +49,6 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 - PREECE, J.; ROGERS, Y.; SHARP, H. *Design de Interação: além da interação Homem-Computador.* 3. ed. Bookman, 2013.
 - SOUSA, Roque Fernando Marcos. *Canvas HTML 5: composição gráfica e interatividade na web.* Brasport, 2014.
 
-## Repositório das atividades realizadas
-
-- [Aula 1 - Vanilla JS](https://github.com/w-tangly/frameworkWeb-vanilla-aula1.git)
-- [Aula 2 - Introdução a React](https://github.com/w-tangly/primeiro_projeto_react)
-- [Aula 3 - Projeto React](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-hda-react)
-- [Aula 3 - Projeto colaborativo](https://github.com/pi-1semestre/framework-frontend-colab)
-- [Aula 4 - Criação de API (backend)](https://github.com/w-tangly/meu-projeto-express)
-- [Ãula 4 - Criação de API (frontend)](https://github.com/w-tangly/front-express.git)
-
-## Deploy das atividades realizadas
-
-- [Aula 1 - Vanilla JS](https://framework-web-vanilla-aula1.vercel.app/)
-- [Aula 2 - Introdução a React](https://primeiro-projeto-react-ivory.vercel.app/)
-- [Aula 3 - Projeto React]()
-- [Aula 3 - Projeto colaborativo](https://projeto-react-cartoon-framework.vercel.app/)
-- [Aula 4 - Criação de API (backend)](https://api-express-deivison.onrender.com)
-- [Aula 4 - Criação de API (frontend)](https://front-express-three.vercel.app/)
 
 ## Projeto final da matéria
 - [Projeto final](URL)
