@@ -2,6 +2,10 @@
 
 Este repositório registra as aulas, o conteúdo e o progresso do curso de frameworks front-end do SENAI
 
+## Como usar
+
+Cada atividade foi desenvolvida em um repositório distinto. Use os links da seção anterior para acessar os exercícios e projetos de cada aula. Os arquivos e pastas presentes dentro deste repositório serão usados para realizar o armazenamento e gerenciamento de conteúdo das aulas. Este repositório principal serve apenas para centralizar o registro das aulas e indicar as entregas existentes.
+
 ## Objetivo
 
 O objetivo deste repositório é servir como um índice e histórico das aulas de frameworks front-end, documentando o que foi aprendido e apontando para os trabalhos realizados em repositórios separados..
@@ -53,7 +57,3 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 
 ## Projeto final da matéria
 - [Projeto final](URL)
-
-## Como usar
-
-Cada atividade foi desenvolvida em um repositório distinto. Use os links da seção anterior para acessar os exercícios e projetos de cada aula. Os arquivos e pastas presentes dentro deste repositório serão usados para realizar o armazenamento e gerenciamento de conteúdo das aulas. Este repositório principal serve apenas para centralizar o registro das aulas e indicar as entregas existentes.
