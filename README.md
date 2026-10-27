@@ -38,7 +38,7 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 | Aula 3 - Projeto colaborativo | [GitHub](https://github.com/pi-1semestre/framework-frontend-colab) | [Vercel](https://projeto-react-cartoon-framework.vercel.app/) |
 | Aula 4 - Criação de API (backend) | [GitHub](https://github.com/w-tangly/meu-projeto-express) | [Render](https://api-express-deivison.onrender.com) |
 | Aula 4 - Criação de API (frontend) | [GitHub](https://github.com/w-tangly/front-express) | [Vercel](https://front-express-three.vercel.app/) |
-| Aula 8 - Projeto React em TypeScript | [Github](https://github.com/w-tangly/projeto-react-aula08/tree/main) | [Deploy](https://projeto-react-aula08.vercel.app/) |
+| Aula 8 - Projeto React em TypeScript | [Github](https://github.com/w-tangly/projeto-react-aula08/tree/main) | [Vercel](https://projeto-react-aula08.vercel.app/) |
 
 ### Referências
 - SOUZA, Natan. *Bootstrap 4: conheça a biblioteca front-end mais utilizada no mundo.* Casa do Código, 2018.
