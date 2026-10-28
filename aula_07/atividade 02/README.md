@@ -7,7 +7,7 @@ Este projeto consiste na criação de uma interface moderna, responsiva e visual
 ## 🔗 Links do Projeto
 - **Repositório do projeto:** https://github.com/w-tangly/senai-framework-web
 - **Execução local:** abrir o arquivo `aula_07/atividade 02/index.html` em um navegador, ou usar uma extensão como Live Server no VS Code.
-- **Deploy/visualização online:** não foi publicado em plataforma externa; a demonstração foi validada em ambiente local.
+- **Deploy/visualização online:** [Vercel](https://senai-framework-web-atividade-02.vercel.app/).
 
 ---
 
