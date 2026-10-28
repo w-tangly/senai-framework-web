@@ -1,84 +1,139 @@
 # Atividade 02 - Desenvolvimento com Tailwind CSS
 
-Este projeto consiste na implementação de uma interface moderna e responsiva utilizando **Tailwind CSS**, atendendo a todos os requisitos propostos na Atividade 02.
+Este projeto consiste na criação de uma interface moderna, responsiva e visualmente organizada utilizando o framework **Tailwind CSS**. A página foi desenvolvida para demonstrar o uso de classes utilitárias em componentes de navegação, banner principal, cards responsivos e painel em destaque.
 
 ---
 
-## 🔗 Link do Projeto Desenvolvido
-- **Repositório GitHub:** `[COLE_AQUI_O_LINK_DO_SEU_REPOSITORIO]`
-- **Deploy / Demonstração Online (se houver, ex: GitHub Pages ou Vercel):** `[COLE_AQUI_O_LINK_DO_DEPLOY]`
+## 🔗 Links do Projeto
+- **Repositório do projeto:** https://github.com/w-tangly/senai-framework-web
+- **Execução local:** abrir o arquivo `aula_07/atividade 02/index.html` em um navegador, ou usar uma extensão como Live Server no VS Code.
+- **Deploy/visualização online:** não foi publicado em plataforma externa; a demonstração foi validada em ambiente local.
 
 ---
 
-## 📸 Demonstração do Projeto (Prints)
+## 📌 Objetivo da Atividade
+O objetivo da atividade foi aplicar os conceitos da aula de frameworks CSS, especialmente o uso do Tailwind CSS para construir interfaces com:
+- responsividade para desktop, tablet e mobile;
+- sistema de grid e flexbox;
+- espaçamento e bordas controlados;
+- tipografia e contraste adequados;
+- cores, gradientes e hover states;
+- componentes estruturados com classes utilitárias.
 
-### 1. Aplicação em Funcionamento
+---
+
+## 📸 Demonstração do Projeto
+
+### 1. Layout em desktop
 ![Aplicação em Funcionamento Desktop](./img/desktop.png)
-*Figura 1: Visualização do layout em telas Desktop.*
+*Figura 1: Visão geral da interface em tela desktop.*
 
+### 2. Layout responsivo em mobile
 ![Aplicação em Funcionamento Mobile](./img/mobile.png)
-*Figura 2: Visualização responsiva em dispositivos móveis.*
+*Figura 2: Ajuste do layout para dispositivos móveis.*
 
-### 2. Prints do Código-Fonte
-*(Tire prints do VS Code mostrando a estrutura do HTML com as classes Tailwind)*
-
+### 3. Trecho do código-fonte no VS Code
 ![Print do Código](./img/codigo.png)
-*Figura 3: Trecho do código-fonte utilizando as classes utilitárias do Tailwind.*
+*Figura 3: Estrutura HTML com classes utilitárias do Tailwind CSS.*
 
 ---
 
-## 📋 Lista das Classes Tailwind CSS Utilizadas
+## 🧩 Estrutura do Projeto
+A atividade foi organizada em arquivos simples e objetivos:
 
-Foram empregadas mais de 30 classes utilitárias, cobrindo todas as categorias exigidas:
+- `index.html` — estrutura da interface com elementos HTML e classes Tailwind.
+- `img/` — imagens de demonstração do projeto.
+- `README.md` — documentação do projeto.
 
-| Categoria | Classe | Função / Propriedade CSS Equivalente |
+---
+
+## 📋 Classes Tailwind CSS Utilizadas
+Foram aplicadas mais de 30 classes utilitárias para cobrir as principais categorias do CSS e demonstrar as possibilidades do framework.
+
+| Categoria | Classe | Função / Propriedade CSS equivalente |
 |---|---|---|
-| **Cores** | `bg-white` | `background-color: #ffffff;` (Fundo branco) |
-| **Cores** | `bg-slate-100` | `background-color: #f1f5f9;` (Fundo cinza suave) |
-| **Cores** | `bg-indigo-600` | `background-color: #4f46e5;` (Fundo roxo/índigo) |
-| **Cores** | `text-slate-800` | `color: #1e293b;` (Texto escuro suave) |
-| **Cores** | `text-white` | `color: #ffffff;` (Texto branco) |
-| **Cores** | `hover:bg-indigo-700` | Altera a cor de fundo ao passar o cursor do mouse |
-| **Tipografia** | `text-sm` | `font-size: 0.875rem;` (Texto tamanho pequeno) |
-| **Tipografia** | `text-xl` | `font-size: 1.25rem;` (Título médio/grande) |
-| **Tipografia** | `text-4xl` | `font-size: 2.25rem;` (Título de grande destaque) |
-| **Tipografia** | `font-bold` | `font-weight: 700;` (Texto em negrito) |
-| **Tipografia** | `tracking-tight` | `letter-spacing: -0.025em;` (Espaçamento estreito entre letras) |
-| **Tipografia** | `text-center` | `text-align: center;` (Alinhamento centralizado) |
-| **Espaçamentos** | `p-6` | `padding: 1.5rem;` (Preenchimento interno geral) |
-| **Espaçamentos** | `px-4` | `padding-left/right: 1rem;` (Padding horizontal) |
-| **Espaçamentos** | `py-2` | `padding-top/bottom: 0.5rem;` (Padding vertical) |
-| **Espaçamentos** | `mb-3` | `margin-bottom: 0.75rem;` (Margem inferior) |
-| **Espaçamentos** | `mx-auto` | `margin-left: auto; margin-right: auto;` (Centraliza blocos) |
-| **Espaçamentos** | `space-y-10` | Aplica espaçamento vertical de 2.5rem entre elementos filhos |
-| **Dimensões** | `w-full` | `width: 100%;` (Largura máxima/total) |
-| **Dimensões** | `min-h-screen` | `min-height: 100vh;` (Altura mínima de 100% da tela) |
-| **Dimensões** | `max-w-7xl` | `max-width: 80rem;` (Limita a largura máxima do container) |
-| **Bordas** | `border` | `border-width: 1px;` (Borda padrão) |
-| **Bordas** | `border-slate-200` | `border-color: #e2e8f0;` (Cor da borda clara) |
-| **Bordas** | `rounded-lg` | `border-radius: 0.5rem;` (Cantos arredondados) |
-| **Bordas** | `rounded-full` | `border-radius: 9999px;` (Bordas totalmente circulares) |
-| **Posicionamento**| `relative` | `position: relative;` (Posicionamento relativo) |
-| **Posicionamento**| `absolute` | `position: absolute;` (Posicionamento absoluto) |
-| **Posicionamento**| `sticky` | `position: sticky;` (Fixa o elemento com scroll) |
-| **Posicionamento**| `top-0` | `top: 0px;` (Alinhamento no topo) |
-| **Posicionamento**| `z-50` | `z-index: 50;` (Controle de camada de sobreposição) |
-| **Flexbox** | `flex` | `display: flex;` (Habilita container Flexbox) |
-| **Flexbox** | `flex-col` | `flex-direction: column;` (Direção dos itens em coluna) |
-| **Flexbox** | `items-center` | `align-items: center;` (Alinhamento vertical central) |
-| **Flexbox** | `justify-between`| `justify-content: space-between;` (Distribuição com espaçamento entre itens) |
-| **Flexbox** | `gap-4` | `gap: 1rem;` (Espaçamento entre itens flex) |
-| **Grid** | `grid` | `display: grid;` (Habilita container Grid) |
-| **Grid** | `grid-cols-1` | `grid-template-columns: repeat(1, minmax(0, 1fr));` (1 coluna no mobile) |
-| **Grid** | `gap-6` | `gap: 1.5rem;` (Espaçamento entre as células do grid) |
-| **Responsividade**| `sm:flex-row` | Em telas `>= 640px`, altera a direção flex para linha |
-| **Responsividade**| `sm:grid-cols-2`| Em telas `>= 640px`, divide o grid em 2 colunas |
-| **Responsividade**| `lg:grid-cols-4`| Em telas `>= 1024px`, divide o grid em 4 colunas |
+| Cores | `bg-slate-100` | Fundo cinza claro do corpo da página |
+| Cores | `bg-white` | Fundo branco em blocos e cards |
+| Cores | `bg-indigo-600` | Cor principal de destaque e botão |
+| Cores | `bg-indigo-50` | Fundo suave para labels e destaques |
+| Cores | `text-slate-800` | Texto escuro principal |
+| Cores | `text-slate-600` | Texto secundário e navegação |
+| Cores | `text-white` | Texto em elementos interativos |
+| Cores | `hover:bg-indigo-700` | Mudança de cor ao passar o mouse |
+| Tipografia | `text-xs` | Texto pequeno |
+| Tipografia | `text-sm` | Texto de apoio |
+| Tipografia | `text-lg` | Tamanho de texto médio |
+| Tipografia | `text-xl` | Tamanho de título médio |
+| Tipografia | `text-2xl` | Título de seção |
+| Tipografia | `text-3xl` | Cabeçalho principal |
+| Tipografia | `text-4xl` | Título destacado |
+| Tipografia | `font-bold` | Texto em negrito |
+| Tipografia | `font-semibold` | Texto semibold |
+| Tipografia | `font-extrabold` | Título com peso máximo |
+| Tipografia | `tracking-tight` | Ajuste fino do espaçamento entre letras |
+| Tipografia | `text-center` | Alinhamento central do texto |
+| Espaçamento | `p-6` | Padding geral |
+| Espaçamento | `px-4` | Padding horizontal |
+| Espaçamento | `py-2` | Padding vertical |
+| Espaçamento | `mb-3` | Margem inferior |
+| Espaçamento | `mx-auto` | Centralização horizontal |
+| Espaçamento | `space-y-10` | Espaço vertical entre elementos |
+| Dimensões | `w-full` | Largura total |
+| Dimensões | `min-h-screen` | Altura mínima de 100vh |
+| Dimensões | `max-w-7xl` | Limite máximo de largura do container |
+| Bordas | `border` | Borda padrão |
+| Bordas | `border-slate-200` | Borda com cinza claro |
+| Bordas | `rounded-lg` | Cantos arredondados |
+| Bordas | `rounded-xl` | Cantos mais suaves em cards |
+| Bordas | `rounded-full` | Elementos circulares ou com borda completa |
+| Posicionamento | `relative` | Posicionamento relativo |
+| Posicionamento | `absolute` | Posicionamento absoluto |
+| Posicionamento | `sticky` | Elemento fixo durante a rolagem |
+| Posicionamento | `top-0` | Alinhamento no topo |
+| Posicionamento | `z-50` | Sobreposição de camadas |
+| Flexbox | `flex` | Container em flexbox |
+| Flexbox | `flex-col` | Direção em coluna |
+| Flexbox | `items-center` | Alinhamento vertical central |
+| Flexbox | `justify-between` | Distribuição de espaço entre itens |
+| Flexbox | `gap-4` | Espaçamento entre elementos flex |
+| Flexbox | `gap-6` | Espaçamento mais amplo entre cards |
+| Grid | `grid` | Habilita layout em grid |
+| Grid | `grid-cols-1` | 1 coluna em mobile |
+| Grid | `sm:grid-cols-2` | 2 colunas em telas médias |
+| Grid | `lg:grid-cols-4` | 4 colunas em telas grandes |
+| Responsividade | `sm:flex-row` | Layout em linha em telas maiores |
+| Responsividade | `hover:-translate-y-1` | Efeito de elevação ao passar o mouse |
+| Responsividade | `transition` | Suavização de transições |
+| Responsividade | `duration-200` | Tempo de transição |
 
 ---
 
-## 🚀 Como Executar o Projeto
+## ⚙️ Como Executar o Projeto
 
-1. Clone o repositório ou baixe os arquivos para o seu computador:
-   ```bash
-   git clone https://github.com/seu-usuario/revisao_css.git
+### Opção 1 — abrir diretamente no navegador
+1. Acesse a pasta `aula_07/atividade 02`.
+2. Abra o arquivo `index.html` no navegador.
+3. A página será renderizada com o Tailwind via CDN automaticamente.
+
+### Opção 2 — VS Code com Live Server
+1. Abra a pasta do projeto no VS Code.
+2. Instale a extensão **Live Server**.
+3. Clique com o botão direito em `index.html` e selecione **Open with Live Server**.
+4. O projeto será aberto em uma aba do navegador local.
+
+### Opção 3 — servidor local simples via terminal
+```bash
+cd "C:\Users\Pedro Campos\Documents\GitHub\senai-framework-web\aula_07\atividade 02"
+python -m http.server 8000
+```
+Depois acesse:
+```bash
+http://localhost:8000
+```
+
+---
+
+## ✅ Conclusão
+A atividade foi concluída com sucesso, demonstrando a aplicação prática dos conceitos de Tailwind CSS em uma interface moderna e responsiva. O projeto utilizou classes utilitárias para estruturar o layout, definir espaçamento, cores, tipografia, gradientes, grid e flexbox, além de garantir adaptação visual em diferentes tamanhos de tela.
+
+Essa abordagem reforça a importância dos frameworks CSS na produtividade do desenvolvimento front-end, permitindo criar interfaces consistentes, organizadas e reutilizáveis com menos código manual.
