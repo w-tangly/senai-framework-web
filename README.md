@@ -45,6 +45,9 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 | Aula 7 - Atividade 2 | [Github](https://github.com/w-tangly/senai-framework-web/tree/main/aula_07/atividade%2002) | [Vercel](https://senai-framework-web-atividade-02.vercel.app/) |
 | Aula 8 - Projeto React em TypeScript | [Github](https://github.com/w-tangly/projeto-react-aula08/tree/main) | [Vercel](https://projeto-react-aula08.vercel.app/) |
 
+## Projeto final da matéria
+- [Projeto final](URL)
+
 ### Referências
 - SOUZA, Natan. *Bootstrap 4: conheça a biblioteca front-end mais utilizada no mundo.* Casa do Código, 2018.
 - MACHADO, Kheronn Khennedy. *Angular 11 e firebase.* Casa do Código, 2021.
@@ -54,7 +57,3 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 - NIEDERAUER, Juliano. *Desenvolvendo Websites com PHP.* 3. ed. Novatec, 2017.
 - PREECE, J.; ROGERS, Y.; SHARP, H. *Design de Interação: além da interação Homem-Computador.* 3. ed. Bookman, 2013.
 - SOUSA, Roque Fernando Marcos. *Canvas HTML 5: composição gráfica e interatividade na web.* Brasport, 2014.
-
-
-## Projeto final da matéria
-- [Projeto final](URL)
