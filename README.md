@@ -42,6 +42,7 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 | Aula 3 - Projeto colaborativo | [GitHub](https://github.com/pi-1semestre/framework-frontend-colab) | [Vercel](https://projeto-react-cartoon-framework.vercel.app/) |
 | Aula 4 - Criação de API (backend) | [GitHub](https://github.com/w-tangly/meu-projeto-express) | [Render](https://api-express-deivison.onrender.com) |
 | Aula 4 - Criação de API (frontend) | [GitHub](https://github.com/w-tangly/front-express) | [Vercel](https://front-express-three.vercel.app/) |
+| Aula 7 - Atividade 2 | [Github](https://github.com/w-tangly/senai-framework-web/tree/main/aula_07/atividade%2002) | [Vercel](https://senai-framework-web-atividade-02.vercel.app/) |
 | Aula 8 - Projeto React em TypeScript | [Github](https://github.com/w-tangly/projeto-react-aula08/tree/main) | [Vercel](https://projeto-react-aula08.vercel.app/) |
 
 ### Referências
