@@ -1,4 +1,4 @@
-# SENAI Frameworks Front-end
+<img width="1869" height="743" alt="image" src="https://github.com/user-attachments/assets/d8719bbe-d9b5-4a7d-9400-bb28d8a6fa3c" /># SENAI Frameworks Front-end
 
 Este repositório registra as aulas, o conteúdo e o progresso do curso de frameworks front-end do SENAI
 
@@ -41,7 +41,9 @@ Programar aplicações responsivas para a internet, tendo em vista a utilizaçã
 | Aula 3 - Projeto React | [GitHub](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-hda-react) | Não informado |
 | Aula 3 - Projeto colaborativo | [GitHub](https://github.com/pi-1semestre/framework-frontend-colab) | [Vercel](https://projeto-react-cartoon-framework.vercel.app/) |
 | Aula 4 - Criação de API (backend) | [GitHub](https://github.com/w-tangly/meu-projeto-express) | [Render](https://api-express-deivison.onrender.com) |
-| Aula 4 - Criação de API (frontend) | [GitHub](https://github.com/w-tangly/front-express) | [Vercel](https://front-express-three.vercel.app/) |
+| Aula 4 - Criação de API (frontend) | [GitHub](https://github.com/w-tangly/front-express) | [Vercel](https://front-express-three.vercel.app/) |  
+| Aula 5 - API CRUD (frontend)| [Github](https://github.com/w-tangly/notas_front) | [Vercel](https://notasfront.vercel.app/) |
+| Aula 5 - API CRUD (backend)| [Github](https://github.com/w-tangly/notas_back) | [Render](https://notas-back-ut9s.onrender.com/) |
 | Aula 7 - Atividade 1 | [Github](https://github.com/w-tangly/senai-framework-web/tree/main/aula_07/atividade%2001) | [Vercel](https://senai-framework-web-atividade-01.vercel.app/) | 
 | Aula 7 - Atividade 2 | [Github](https://github.com/w-tangly/senai-framework-web/tree/main/aula_07/atividade%2002) | [Vercel](https://senai-framework-web-atividade-02.vercel.app/) |
 | Aula 8 - Projeto React em TypeScript | [Github](https://github.com/w-tangly/projeto-react-aula08/tree/main) | [Vercel](https://projeto-react-aula08.vercel.app/) |
