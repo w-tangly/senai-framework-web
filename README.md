@@ -1,5 +1,3 @@
-<img width="1869" height="743" alt="image" src="https://github.com/user-attachments/assets/d8719bbe-d9b5-4a7d-9400-bb28d8a6fa3c" /># SENAI Frameworks Front-end
-
 Este repositório registra as aulas, o conteúdo e o progresso do curso de frameworks front-end do SENAI
 
 ## Como usar
